@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
 
   spec.license      = "MIT (example)"
 
-  spec.author             = { "Matthew O'Leary" }
+  spec.author       = "Matthew O'Leary"
 
   spec.source       = { :git => "https://github.com/zendesk-moleary/Framework-B.git", :tag => "1.0.0" }
 
