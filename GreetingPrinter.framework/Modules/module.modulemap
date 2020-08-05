@@ -1,0 +1,11 @@
+framework module GreetingPrinter {
+  umbrella header "GreetingPrinter.h"
+
+  export *
+  module * { export * }
+}
+
+module GreetingPrinter.Swift {
+    header "GreetingPrinter-Swift.h"
+    requires objc
+}
