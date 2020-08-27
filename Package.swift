@@ -20,9 +20,13 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "GreetingPrinter",
-            dependencies: []),
+            dependencies: [],
+            path: "./GreetingPrinter/Sources"
+        ),
         .testTarget(
             name: "GreetingPrinterTests",
-            dependencies: ["GreetingPrinter"]),
+            dependencies: ["GreetingPrinter"],
+            path: "./GreetingPrinter/Tests"
+        )
     ]
 )
